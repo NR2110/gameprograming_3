@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Adollib">
+      <UniqueIdentifier>{457a0db0-78dc-4f19-9ba1-e6eb79f8abcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adollib\main">
+      <UniqueIdentifier>{1aa0d38b-0bac-4886-bcb7-4d0604cec1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adollib\object">
+      <UniqueIdentifier>{ba801f30-dc48-437a-b82e-1c30330c227f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adollib\math">
+      <UniqueIdentifier>{eea9848d-7e6b-474f-aa58-f3a76a5c04fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adollib\shader">
+      <UniqueIdentifier>{36de64fc-7e7c-4b76-a489-b6c226ddc5d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adollib\shader\hlsli">
+      <UniqueIdentifier>{2ee81938-f4b8-4424-be0e-212cafffefba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adollib\object\mesh">
+      <UniqueIdentifier>{d2534fb1-3e0f-4465-bf38-05c093fa394f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene_game">
+      <UniqueIdentifier>{99480d18-a01a-478a-95d0-fb97c50cd010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene_game\camera">
+      <UniqueIdentifier>{8ef12ffc-f6e1-45e5-ba59-12c05479917f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene_game\object">
+      <UniqueIdentifier>{1318d6d5-7f58-4468-9a25-b89ef51ca1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene_game\player">
+      <UniqueIdentifier>{5803a67c-c3e6-4d3c-82a6-90b2b6264aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene_game\enemy">
+      <UniqueIdentifier>{16cb34cf-ce56-4401-8f99-e845686d95f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="scene_title.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Adollib.cpp">
+      <Filter>Adollib\main</Filter>
+    </ClCompile>
+    <ClCompile Include="loop.cpp">
+      <Filter>Adollib\main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Adollib\main</Filter>
+    </ClCompile>
+    <ClCompile Include="systems.cpp">
+      <Filter>Adollib\main</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>Adollib\math</Filter>
+    </ClCompile>
+    <ClCompile Include="quaternion.cpp">
+      <Filter>Adollib\math</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Adollib\math</Filter>
+    </ClCompile>
+    <ClCompile Include="complex.cpp">
+      <Filter>Adollib\math</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject_manager.cpp">
+      <Filter>Adollib\object</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject.cpp">
+      <Filter>Adollib\object</Filter>
+    </ClCompile>
+    <ClCompile Include="rigit_body_manager.cpp">
+      <Filter>Adollib\math</Filter>
+    </ClCompile>
+    <ClCompile Include="rigit_body.cpp">
+      <Filter>Adollib\math</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>Adollib\main</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Adollib\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject_light.cpp">
+      <Filter>Adollib\object</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject_camera.cpp">
+      <Filter>Adollib\object</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>Adollib\object\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Adollib\object\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_manager.cpp">
+      <Filter>Adollib\object\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Adollib\object\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_game.cpp">
+      <Filter>ソース ファイル\scene_game</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Adollib\main</Filter>
+    </ClCompile>
+    <ClCompile Include="material_for_collider.cpp">
+      <Filter>Adollib\object\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\player.cpp">
+      <Filter>ソース ファイル\scene_game\player</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Adollib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\object_rotate.cpp">
+      <Filter>ソース ファイル\scene_game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\camera_manager.cpp">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\camera_s.cpp">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\object_manager.cpp">
+      <Filter>ソース ファイル\scene_game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\object_fall.cpp">
+      <Filter>ソース ファイル\scene_game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\enemy_manager.cpp">
+      <Filter>ソース ファイル\scene_game\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\enemy.cpp">
+      <Filter>ソース ファイル\scene_game\enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scene_title.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Adollib.h">
+      <Filter>Adollib\main</Filter>
+    </ClInclude>
+    <ClInclude Include="loop.h">
+      <Filter>Adollib\main</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Adollib\main</Filter>
+    </ClInclude>
+    <ClInclude Include="systems.h">
+      <Filter>Adollib\main</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Adollib\math</Filter>
+    </ClInclude>
+    <ClInclude Include="quaternion.h">
+      <Filter>Adollib\math</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Adollib\math</Filter>
+    </ClInclude>
+    <ClInclude Include="complex.h">
+      <Filter>Adollib\math</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Adollib\object</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Adollib\object</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject_manager.h">
+      <Filter>Adollib\object</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject.h">
+      <Filter>Adollib\object</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>Adollib\object</Filter>
+    </ClInclude>
+    <ClInclude Include="rigit_body_manager.h">
+      <Filter>Adollib\math</Filter>
+    </ClInclude>
+    <ClInclude Include="rigit_body.h">
+      <Filter>Adollib\math</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_list.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Adollib\main</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Adollib\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="states_manager.h">
+      <Filter>Adollib\main</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject_light.h">
+      <Filter>Adollib\object</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject_camera.h">
+      <Filter>Adollib\object</Filter>
+    </ClInclude>
+    <ClInclude Include="cbuffer_manager.h">
+      <Filter>Adollib\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="light_types.h">
+      <Filter>Adollib\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Adollib\object\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Adollib\object\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_manager.h">
+      <Filter>Adollib\object\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Adollib\object\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_game.h">
+      <Filter>ソース ファイル\scene_game</Filter>
+    </ClInclude>
+    <ClInclude Include="component_camera.h">
+      <Filter>Adollib\object</Filter>
+    </ClInclude>
+    <ClInclude Include="component_light.h">
+      <Filter>Adollib\object</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Adollib\main</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Adollib\main</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>Adollib\main</Filter>
+    </ClInclude>
+    <ClInclude Include="material_for_collider.h">
+      <Filter>Adollib\object\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\player.h">
+      <Filter>ソース ファイル\scene_game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\scene_game_all.h">
+      <Filter>ソース ファイル\scene_game</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>Adollib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\object_rotate.h">
+      <Filter>ソース ファイル\scene_game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\camera_manager.h">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\camera_s.h">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\object_fall.h">
+      <Filter>ソース ファイル\scene_game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\object_manager.h">
+      <Filter>ソース ファイル\scene_game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\enemy_manager.h">
+      <Filter>ソース ファイル\scene_game\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\enemy.h">
+      <Filter>ソース ファイル\scene_game\enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DefaultShader\default.hlsli">
+      <Filter>Adollib\shader\hlsli</Filter>
+    </None>
+    <None Include="DefaultShader\light_type.hlsli">
+      <Filter>Adollib\shader\hlsli</Filter>
+    </None>
+    <None Include="DefaultShader\head.hlsli">
+      <Filter>Adollib\shader\hlsli</Filter>
+    </None>
+    <None Include="DefaultShader\func.hlsli">
+      <Filter>Adollib\shader\hlsli</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="DefaultShader\default_ps.hlsl">
+      <Filter>Adollib\shader\hlsli</Filter>
+    </FxCompile>
+    <FxCompile Include="DefaultShader\default_vs.hlsl">
+      <Filter>Adollib\shader\hlsli</Filter>
+    </FxCompile>
+    <FxCompile Include="DefaultShader\default_ps_notex.hlsl">
+      <Filter>Adollib\shader\hlsli</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
