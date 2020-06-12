@@ -136,8 +136,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\Scripts\camera_Follow.h" />
+    <ClInclude Include="..\Scripts\camera_FPS.h" />
+    <ClInclude Include="..\Scripts\camera_Free.h" />
+    <ClInclude Include="..\Scripts\camera_global.h" />
     <ClInclude Include="..\Scripts\camera_manager.h" />
     <ClInclude Include="..\Scripts\camera_s.h" />
+    <ClInclude Include="..\Scripts\camera_Surveillance.h" />
+    <ClInclude Include="..\Scripts\camera_TPS.h" />
     <ClInclude Include="..\Scripts\enemy.h" />
     <ClInclude Include="..\Scripts\enemy_manager.h" />
     <ClInclude Include="..\Scripts\object_fall.h" />
@@ -187,8 +193,13 @@
     <ClInclude Include="vector.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Scripts\camera_Follow.cpp" />
+    <ClCompile Include="..\Scripts\camera_FPS.cpp" />
+    <ClCompile Include="..\Scripts\camera_Free.cpp" />
+    <ClCompile Include="..\Scripts\camera_global.cpp" />
     <ClCompile Include="..\Scripts\camera_manager.cpp" />
-    <ClCompile Include="..\Scripts\camera_s.cpp" />
+    <ClCompile Include="..\Scripts\camera_Surveillance.cpp" />
+    <ClCompile Include="..\Scripts\camera_TPS.cpp" />
     <ClCompile Include="..\Scripts\enemy.cpp" />
     <ClCompile Include="..\Scripts\enemy_manager.cpp" />
     <ClCompile Include="..\Scripts\object_fall.cpp" />

@@ -130,9 +130,6 @@
     <ClCompile Include="..\Scripts\camera_manager.cpp">
       <Filter>ソース ファイル\scene_game\camera</Filter>
     </ClCompile>
-    <ClCompile Include="..\Scripts\camera_s.cpp">
-      <Filter>ソース ファイル\scene_game\camera</Filter>
-    </ClCompile>
     <ClCompile Include="..\Scripts\object_manager.cpp">
       <Filter>ソース ファイル\scene_game\object</Filter>
     </ClCompile>
@@ -144,6 +141,24 @@
     </ClCompile>
     <ClCompile Include="..\Scripts\enemy.cpp">
       <Filter>ソース ファイル\scene_game\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\camera_TPS.cpp">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\camera_FPS.cpp">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\camera_Follow.cpp">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\camera_Free.cpp">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\camera_Surveillance.cpp">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Scripts\camera_global.cpp">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -284,6 +299,24 @@
     </ClInclude>
     <ClInclude Include="..\Scripts\enemy.h">
       <Filter>ソース ファイル\scene_game\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\camera_TPS.h">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\camera_FPS.h">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\camera_Follow.h">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\camera_Free.h">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\camera_Surveillance.h">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Scripts\camera_global.h">
+      <Filter>ソース ファイル\scene_game\camera</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

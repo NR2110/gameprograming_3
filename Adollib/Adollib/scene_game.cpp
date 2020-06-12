@@ -7,12 +7,6 @@ namespace Adollib {
 
 	void scene_game::initialize() {
 
-		//::: camera :::::::::
-		{
-			Gameobject* GO = Gameobject_manager::create();
-			GO->addComponent<camera_manager_s>();
-		}
-
 		//::: field ::::::::::
 		{
 			Gameobject* GO = Gameobject_manager::createCube();
@@ -47,13 +41,18 @@ namespace Adollib {
 			//OR->collier = GO->collider[0];
 		}
 
+
 		//::: enemy ::::::::
 		{
 			Gameobject* GO = Gameobject_manager::create();
 			GO->addComponent<Enemy_manager>();
 		}
 
-
+		//::: camera :::::::::
+		{
+			Gameobject* GO = Gameobject_manager::create();
+			GO->addComponent<camera_manager_s>();
+		}
 
 		//{
 		//	Gameobject* GO = Gameobject_manager::create();

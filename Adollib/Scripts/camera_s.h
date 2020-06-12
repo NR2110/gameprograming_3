@@ -5,25 +5,34 @@
 
 namespace Adollib
 {
-	class camera_s : public Component_camera
+	enum class camera_types {
+		Surveillance,
+		Follow,
+		Third_P,
+		First_P,
+		Free,
+		camera_types_size
+	};
+
+	class camera_base : public Component_camera
 	{
 	public:
+		camera_types camera_type;
 		Transfome* player;
 
-	public:
-		void awake();
+		virtual void awake() {};
 
 		// 所属するシーンの初期化時に一度だけ呼ばれる
-		void start();
+		virtual void start() {};
 
 		// 毎フレーム呼ばれる更新処理
-		void update();
+		virtual void update() {};
 
 		// このスクリプトがアタッチされているGOのactiveSelfがtrueになった時呼ばれる
-		void onEnable();
+		virtual void onEnable() {};
 
 		// このスクリプトがアタッチされているGOのactiveSelfがfalseになった時呼ばれる
-		void onDisable();
+		virtual void onDisable() {};
 
 	};
 
